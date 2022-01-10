@@ -1,5 +1,5 @@
 {
-  "name": "instagram",
+  "name": "instaclone",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,33 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jinsyz/instagram-backend.git"
+    "url": "git+https://github.com/nomadcoders/instaclone-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jinsyz/instagram-backend/issues"
+    "url": "https://github.com/nomadcoders/instaclone-backend/issues"
   },
-  "homepage": "https://github.com/jinsyz/instagram-backend#readme",
+  "homepage": "https://github.com/nomadcoders/instaclone-backend#readme",
   "dependencies": {
-    "14": "^3.1.6",
-    "@graphql-tools/load-files": "^6.5.3",
-    "@graphql-tools/merge": "^8.2.1",
-    "@graphql-tools/schema": "^8.3.1",
-    "@prisma/client": "^3.6.0",
-    "apollo-server": "^2.25.2",
-    "bcrypt": "^5.0.1",
-    "dotenv": "^10.0.0",
+    "@prisma/client": "^2.15.0",
+    "apollo-server": "^2.19.1",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
     "graphql": "^15.4.0",
     "graphql-tools": "^7.0.2",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/node": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "nodemon": "^2.0.15",
-    "prisma": "^3.6.0"
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@prisma/cli": "^2.15.0",
+    "nodemon": "^2.0.7"
   }
 }
